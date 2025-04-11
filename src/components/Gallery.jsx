@@ -15,8 +15,8 @@ const  Gallery = ({tours,setTours, onRemove}) =>{
             setLoading(false)
         }
         catch (error) {
-            setError(true) // loading data set to true
-            setLoading(false) //loading data set to false
+            setError(true)
+            setLoading(false)
         }
     } 
     
